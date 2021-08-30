@@ -1,0 +1,26 @@
+@import "base/extends";
+@import "base/listmap";
+@import "base/mixins";
+@import "components/boton";
+@import "components/footer";
+@import "components/imagenes";
+@import "components/responsive";
+@import "components/textos";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  // background-image: url(../assets/bakgrounds/backg-macaron.png);
+  width: 100%;
+  font-family: $fontFamily;
+  overflow-x: hidden;
+  position: relative;
+}
+#img_backg--cream {
+  background-image: url(../assets/bakgrounds/merenge.jpg);
+}
+#products {
+  background-image: url(../assets/bakgrounds/backg-macaron.png);
+}

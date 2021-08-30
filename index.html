@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!--mi css-->
+  <link rel="stylesheet" href="css/estilo.css">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="./assets/logos/favicon.png">
+  <!-- SEO -->
+  <meta name="keywords"  content="tortas, postres, artesanal, candybar, profesionales reposteros, repostería, bakery, cakes, cake">
+  <meta name="description" content="Bakehouse es un emprendimiento familiar de profesionales pasteleros, cocineros y pasteleros que aman su profesion y elaboran productos 100% artesanales ">
+  <title>Bakehouse</title>
+</head>
+
+<body class="contenedorBody">
+  <!----------------------------------------  NAVBAR ----------------------------------------->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="logo">
+        <a href="/views/inicio.html"><img src="/assets/logos/download.png" alt="logo"
+        width="100px" height="100px"></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="/views/inicio.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/views/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/views/galeria.html">Mundo bakehouse</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/views/contacto.html">Contacto</a>
+                </li>
+        </ul>
+    </div>
+</nav>
+  
+  <!-- carrousel -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/carrousel/Blossom-Cake-2.png" class="d-block w-100" alt="Blossom-Cake-2" />
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/carrousel/cupcakess.png" class="d-block w-100" alt="cupcakess" />
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/carrousel/macarrons.png" class="d-block w-100" alt="macarrons" />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- fin carrousel-->
+  <!-- subtitulo h3 -->
+  <div class="container-fluid">
+    <div class="row no-gutters">
+      <div class="featured-title col-md-12 text-center">
+        <h3 class="sub-productos box-sizing">Conoce nuestros productos</h3>
+      </div>
+    </div>
+  </div>
+  <!--fin subtitulo h3-->
+
+  <!-- imagenes productos destacados -->
+  <div class="container-fluid d-flex justify-content-around box-sizing" data-aos-anchor-placement="bottom-bottom">
+    <div class="row">
+      <div class="col-sm thumbnail text-center" id="box-search imagen-cambiante">
+        <img class="img-productos" src="./assets/productos/candybar/animalitos.jpg" alt="" />
+        <div class="caption">
+          <p>candy bar</p>
+        </div>
+      </div>
+      <div class="col-sm thumbnail text-center" id="box-search imagen-cambiante">
+        <img class="img-productos" src="./assets/productos/desayuno/IMG_20200928_182440_489.jpg" alt="alfajor" />
+        <div class="caption">
+          <p>desayuno</p>
+        </div>
+      </div>
+      <div class="col-sm thumbnail text-center" id="box-search ">
+        <img class="img-productos" src="./assets/productos/tortas/cucurucho.jpg" alt="torta-cucurucho" />
+        <div class="caption">
+          <p>tortas</p>
+        </div>
+      </div>
+      <div class="container-fluid d-flex justify-content-around box-sizing">
+        <div class="row">
+          <div class="col-sm thumbnail text-center" id="box-search ">
+            <img class="img-productos" src="./assets/productos/boxes/niñxs.jpg" alt="box-infantil" />
+            <div class="caption">
+              <p>boxes especiales</p>
+            </div>
+          </div>
+          <div class="col-sm thumbnail text-center" id="box-search ">
+            <img class="img-productos" src="./assets/productos/postres/marquisse-inicio.jpg" alt="marquisse" />
+            <div class="caption">
+              <p>postres</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- fin imagenes productos destacados -->
+  <!-- comienzo footer -->
+  <footer>
+    <div class="socialMediaContainer">
+      <h4 class="subtituloPiedepagina">Seguinos en</h4>
+      <div class="footer-end-container">
+        <div class="contenedorListafooter">
+          <p class="listaRedes">
+            <a href="https://www.instagram.com/" target="_blank"><img class="logosRedes"
+                src="./assets/logos/logo redes/instagram-logo.png" /></a>
+          </p>
+
+          <p class="listaRedes">
+            <a href="https://www.facebook.com/" target="_blank"><img class="logosRedes"
+                src="./assets/logos/logo redes/facebook-logo.png" /></a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-end-container">
+        <h5 class="text-copyright">Copyright © 2021</h5>
+      </div>
+      <div>
+        <h5 class="text-copyright">Todos los derechos reservados</h5>
+      </div>
+      <div>
+        <h6 class="text-copyright">Creado por Violeta Todino</h6>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

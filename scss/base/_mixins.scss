@@ -1,0 +1,70 @@
+@import "base/listmap";
+
+// MIXINS
+@mixin textos($fontsize) {
+  font-family: "Lora", serif;
+  font-size: $fontsize;
+  color: $bordo;
+  padding: 5px;
+}
+
+
+@mixin button {
+  background-color: $rosa;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: $bordo;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $fontFamily;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin-top: 10px;
+  outline: none;
+  padding: 10px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+/* CSS */
+@mixin button1 {
+  background-color: $bordo;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: $blanco;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $fontFamily;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin-top: 10px;
+  outline: none;
+  padding: 10px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+

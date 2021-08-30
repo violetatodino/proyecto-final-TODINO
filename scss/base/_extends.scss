@@ -1,0 +1,27 @@
+@import "base/mixins";
+
+%Flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .sub-productos{
+    @extend %Flexbox;
+    @include textos (40px);
+    margin: 50px;
+  }
+// formulario
+  .form-container {
+    @extend %Flexbox;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  // google maps// ubicacion.html  
+  .ubicacion-maps {
+      @extend %Flexbox;
+      width: 100%;
+      padding: 30px;
+  }

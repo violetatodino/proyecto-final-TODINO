@@ -1,0 +1,14 @@
+@import 'base/mixins';
+@import 'base/listmap';
+@import 'base/extends';
+
+.button1 {
+    @include button1;
+}
+.button {
+    @include button;
+}
+.button1:hover,
+.button1:focus {
+  background-color: $violeta
+}

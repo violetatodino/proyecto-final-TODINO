@@ -1,0 +1,39 @@
+@import 'base/extends';
+@import 'base/listmap';
+@import 'base/mixins';
+@import 'components/boton';
+@import 'components/footer';
+@import 'components/imagenes';
+@import 'components/responsive';
+
+.descripcion_nosotros {
+margin: 20px;
+font-family: $fontFamily;
+font-size: 18px;
+color: $bordo;
+
+}
+.descripcion_nosotros {
+    display:flex;
+    text-align: center;
+}
+
+
+  
+  .texto-nosotros {
+    @include textos(18px);}
+  
+//  nosotros.html
+.containerTextoNosotros {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 5px;
+}
+
+// GALERIA.HTML
+.textos {
+  @include textos(35px);
+  display: flex;
+  justify-content: center;
+}
